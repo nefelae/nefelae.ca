@@ -1,124 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nefelae — IT Infrastructure Consulting</title>
-
-<style>
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  margin:0;
-  background:#0f172a;
-  color:#e2e8f0;
-}
-
-.container {
-  max-width:900px;
-  margin:auto;
-  padding:40px 20px;
-}
-
-header {
-  border-bottom:1px solid #334155;
-  margin-bottom:40px;
-}
-
-h1 {
-  font-size:2.8rem;
-  margin:0;
-}
-
-.tagline {
-  color:#94a3b8;
-  margin-top:8px;
-}
-
-section {
-  margin-bottom:50px;
-}
-
-h2 {
-  color:#38bdf8;
-  margin-bottom:10px;
-}
-
-.card {
-  background:#1e293b;
-  padding:20px;
-  border-radius:8px;
-  margin-bottom:15px;
-}
-
-a {
-  color:#38bdf8;
-  text-decoration:none;
-}
-
-a:hover {
-  text-decoration:underline;
-}
-
-footer {
-  border-top:1px solid #334155;
-  padding-top:20px;
-  color:#64748b;
-  font-size:0.9rem;
-}
-</style>
+<title>Nefelae – Infrastructure TI pour PME</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<div class="container">
-
-<header>
-<h1>Nefelae</h1>
-<p class="tagline">Infrastructure Architecture & Cloud-Native Platforms</p>
+<header class="nav">
+<div class="nav-inner">
+<img src="logo.png" class="logo">
+<div class="lang">
+<button onclick="setLang('fr')">FR</button>
+<button onclick="setLang('en')">EN</button>
+</div>
+</div>
 </header>
 
-<section>
-<h2>About</h2>
+
+<section class="hero">
+
+<div class="hero-content lang-fr">
+
+<h1>Infrastructure TI simple, fiable et sécurisée</h1>
+
 <p>
-Nefelae provides consulting services in enterprise infrastructure,
-cloud-native platforms, and storage architecture.
-We specialize in designing resilient systems for modern applications.
+Nefelae accompagne les petites entreprises dans la conception,
+la gestion et la sécurisation de leur infrastructure informatique.
 </p>
+
+<a class="cta" href="https://calendly.com/YOUR-LINK">
+Planifier une rencontre
+</a>
+
+</div>
+
+
+<div class="hero-content lang-en hidden">
+
+<h1>Simple and secure IT infrastructure</h1>
+
+<p>
+Nefelae helps small businesses design, manage and secure
+their technology infrastructure.
+</p>
+
+<a class="cta" href="https://calendly.com/YOUR-LINK">
+Book a meeting
+</a>
+
+</div>
+
 </section>
 
-<section>
+
+<section class="section">
+
+<div class="lang-fr">
+
 <h2>Services</h2>
 
-<div class="card">
-<strong>OpenShift & Kubernetes Platforms</strong><br>
-Architecture, deployment, and operational design.
-</div>
+<div class="grid">
 
 <div class="card">
-<strong>Enterprise Storage</strong><br>
-NetApp integrations, data services, and high-availability architectures.
-</div>
-
-<div class="card">
-<strong>Hybrid Cloud Infrastructure</strong><br>
-Automation, platform engineering, and infrastructure modernization.
-</div>
-
-</section>
-
-<section>
-<h2>Contact</h2>
+<h3>Infrastructure TI pour PME</h3>
 <p>
-Email: <a href="mailto:info@nefelae.ca">info@nefelae.ca</a><br>
-LinkedIn: <a href="#">LinkedIn Profile</a>
+Conception et gestion complète de votre environnement technologique.
 </p>
+</div>
+
+<div class="card">
+<h3>Sécurité informatique</h3>
+<p>
+Analyse des risques, protection des systèmes et bonnes pratiques.
+</p>
+</div>
+
+<div class="card">
+<h3>Virtualisation</h3>
+<p>
+Plateformes virtualisées pour maximiser performance et fiabilité.
+</p>
+</div>
+
+<div class="card">
+<h3>Cloud et modernisation</h3>
+<p>
+Migration cloud et automatisation des infrastructures.
+</p>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="lang-en hidden">
+
+<h2>Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Small Business IT Infrastructure</h3>
+<p>
+Design and management of reliable technology environments.
+</p>
+</div>
+
+<div class="card">
+<h3>Cybersecurity</h3>
+<p>
+Security best practices and risk analysis for businesses.
+</p>
+</div>
+
+<div class="card">
+<h3>Virtualization</h3>
+<p>
+Virtual infrastructure for performance and resilience.
+</p>
+</div>
+
+<div class="card">
+<h3>Cloud Architecture</h3>
+<p>
+Cloud migration and modern infrastructure platforms.
+</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
+
+
+<section class="section">
+
+<div class="lang-fr">
+
+<h2>Approche</h2>
+
+<p>
+Les petites entreprises n'ont souvent pas d'équipe TI interne.
+Nefelae agit comme partenaire technologique pour simplifier les
+décisions et assurer la stabilité de votre environnement.
+</p>
+
+</div>
+
+<div class="lang-en hidden">
+
+<h2>Approach</h2>
+
+<p>
+Small businesses rarely have internal IT teams.
+Nefelae acts as a trusted technology partner to guide
+infrastructure decisions and maintain stability.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section contact">
+
+<div class="lang-fr">
+
+<h2>Contact</h2>
+
+<p>Email : contact@nefelae.ca</p>
+
+<a class="cta" href="https://calendly.com/YOUR-LINK">
+Réserver un appel
+</a>
+
+</div>
+
+
+<div class="lang-en hidden">
+
+<h2>Contact</h2>
+
+<p>Email : contact@nefelae.ca</p>
+
+<a class="cta" href="https://calendly.com/YOUR-LINK">
+Book a call
+</a>
+
+</div>
+
+</section>
+
 
 <footer>
 © 2026 Nefelae
 </footer>
 
-</div>
+
+<script>
+
+function setLang(lang){
+
+document.querySelectorAll(".lang-fr").forEach(el=>el.classList.toggle("hidden",lang==="en"));
+document.querySelectorAll(".lang-en").forEach(el=>el.classList.toggle("hidden",lang==="fr"));
+
+}
+
+</script>
 
 </body>
 </html>
